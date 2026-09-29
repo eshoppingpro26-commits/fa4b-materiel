@@ -1,0 +1,89 @@
+<!--
+  Free Air 4 Brussels — section « Affiches et tracts » (page FR)
+  À coller dans un bloc Code Squarespace (décocher « Afficher la source »).
+
+  Les liens PDF supposent que les fichiers ont été chargés sous leur nom
+  d'origine (Squarespace les sert alors sur /s/<nom-du-fichier>.pdf).
+  Vérifier chaque lien après chargement et corriger si besoin.
+  L'URL de l'image d'aperçu est à REMPLACER par celle donnée par Squarespace.
+-->
+<style>
+  .fa4b-dl { --fa4b-bleu:#1d6ab5; --fa4b-rouge:#e02227; --fa4b-peche:#fbe3da;
+    font-family:inherit; color:#1b2b40; max-width:1000px; margin:0 auto; }
+  .fa4b-dl * { box-sizing:border-box; }
+  .fa4b-dl__grille { display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr);
+    gap:32px; align-items:start; }
+  .fa4b-dl__apercu img { width:100%; height:auto; display:block; border-radius:6px;
+    box-shadow:0 6px 24px rgba(29,106,181,.18); }
+  .fa4b-dl__badge { display:inline-block; background:var(--fa4b-bleu); color:#fff;
+    font-weight:700; letter-spacing:.04em; padding:4px 10px; font-size:14px; }
+  .fa4b-dl h2 { color:var(--fa4b-bleu); margin:12px 0 8px; line-height:1.15; }
+  .fa4b-dl__intro { margin:0 0 20px; }
+  .fa4b-dl__carte { background:var(--fa4b-peche); border-left:4px solid var(--fa4b-bleu);
+    border-radius:4px; padding:14px 16px; margin-bottom:12px; }
+  .fa4b-dl__carte h3 { margin:0 0 2px; font-size:18px; color:var(--fa4b-bleu); }
+  .fa4b-dl__carte p { margin:0 0 10px; font-size:15px; }
+  .fa4b-dl__boutons { display:flex; flex-wrap:wrap; gap:8px; }
+  .fa4b-dl__boutons a { display:inline-block; padding:8px 14px; border-radius:4px;
+    font-weight:600; font-size:15px; text-decoration:none !important; line-height:1.2; }
+  .fa4b-dl__couleur { background:var(--fa4b-bleu); color:#fff !important; }
+  .fa4b-dl__noir { background:#fff; color:#1b2b40 !important; border:2px solid #1b2b40; }
+  .fa4b-dl__boutons a:hover { opacity:.85; }
+  .fa4b-dl__note { font-size:13px; opacity:.8; margin-top:14px; }
+  @media (max-width:700px) {
+    .fa4b-dl__grille { grid-template-columns:1fr; gap:20px; }
+    .fa4b-dl__apercu { max-width:360px; margin:0 auto; }
+  }
+</style>
+
+<section class="fa4b-dl" lang="fr">
+  <div class="fa4b-dl__grille">
+    <div class="fa4b-dl__apercu">
+      <!-- REMPLACER : URL de l'image FA4B-affiche-A4-couleur-FR-apercu.jpg -->
+      <img src="REMPLACER-URL-APERCU-FR.jpg"
+           alt="Affiche Free Air 4 Brussels : Stop au survol intensif" loading="lazy">
+    </div>
+
+    <div>
+      <span class="fa4b-dl__badge">FREE AIR 4 BRUSSELS</span>
+      <h2>Affiches et tracts à imprimer</h2>
+      <p class="fa4b-dl__intro">
+        Aidez-nous à faire connaître la campagne <strong>Stop au survol intensif</strong> :
+        téléchargez, imprimez et diffusez autour de vous, en vitrine, à votre fenêtre
+        ou dans les boîtes aux lettres de votre quartier.
+      </p>
+
+      <div class="fa4b-dl__carte">
+        <h3>Affiche A4</h3>
+        <p>Pour une fenêtre, une vitrine ou un panneau d'affichage.</p>
+        <div class="fa4b-dl__boutons">
+          <a class="fa4b-dl__couleur" href="/s/FA4B-affiche-A4-couleur-FR.pdf" target="_blank" rel="noopener">Couleur (PDF)</a>
+          <a class="fa4b-dl__noir" href="/s/FA4B-affiche-A4-noir-FR.pdf" target="_blank" rel="noopener">Noir et blanc (PDF)</a>
+        </div>
+      </div>
+
+      <div class="fa4b-dl__carte">
+        <h3>Tract A5</h3>
+        <p>À distribuer en main propre ou en boîte aux lettres.</p>
+        <div class="fa4b-dl__boutons">
+          <a class="fa4b-dl__couleur" href="/s/FA4B-tract-A5-couleur-FR.pdf" target="_blank" rel="noopener">Couleur (PDF)</a>
+          <a class="fa4b-dl__noir" href="/s/FA4B-tract-A5-noir-FR.pdf" target="_blank" rel="noopener">Noir et blanc (PDF)</a>
+        </div>
+      </div>
+
+      <div class="fa4b-dl__carte">
+        <h3>Planche de 4 tracts (A4)</h3>
+        <p>4 tracts A5 sur une feuille A4 : imprimez, découpez, distribuez. Le plus économique.</p>
+        <div class="fa4b-dl__boutons">
+          <a class="fa4b-dl__couleur" href="/s/FA4B-planche-A4-4tracts-couleur-FR.pdf" target="_blank" rel="noopener">Couleur (PDF)</a>
+          <a class="fa4b-dl__noir" href="/s/FA4B-planche-A4-4tracts-noir-FR.pdf" target="_blank" rel="noopener">Noir et blanc (PDF)</a>
+        </div>
+      </div>
+
+      <p class="fa4b-dl__note">
+        Astuce : la version noir et blanc consomme beaucoup moins d'encre.
+        Ne pas jeter sur la voie publique.
+      </p>
+    </div>
+  </div>
+</section>

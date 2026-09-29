@@ -1,0 +1,90 @@
+<!--
+  Free Air 4 Brussels — sectie « Affiches en flyers » (NL-pagina)
+  In een Squarespace Code-blok plakken.
+
+  De PDF-links gaan ervan uit dat de bestanden met hun originele naam
+  zijn opgeladen (Squarespace serveert ze dan op /s/<bestandsnaam>.pdf).
+  Controleer elke link na het opladen en pas aan indien nodig.
+  De URL van de voorbeeldafbeelding moet VERVANGEN worden (REMPLACER)
+  door die van Squarespace.
+-->
+<style>
+  .fa4b-dl { --fa4b-bleu:#1d6ab5; --fa4b-rouge:#e02227; --fa4b-peche:#fbe3da;
+    font-family:inherit; color:#1b2b40; max-width:1000px; margin:0 auto; }
+  .fa4b-dl * { box-sizing:border-box; }
+  .fa4b-dl__grille { display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr);
+    gap:32px; align-items:start; }
+  .fa4b-dl__apercu img { width:100%; height:auto; display:block; border-radius:6px;
+    box-shadow:0 6px 24px rgba(29,106,181,.18); }
+  .fa4b-dl__badge { display:inline-block; background:var(--fa4b-bleu); color:#fff;
+    font-weight:700; letter-spacing:.04em; padding:4px 10px; font-size:14px; }
+  .fa4b-dl h2 { color:var(--fa4b-bleu); margin:12px 0 8px; line-height:1.15; }
+  .fa4b-dl__intro { margin:0 0 20px; }
+  .fa4b-dl__carte { background:var(--fa4b-peche); border-left:4px solid var(--fa4b-bleu);
+    border-radius:4px; padding:14px 16px; margin-bottom:12px; }
+  .fa4b-dl__carte h3 { margin:0 0 2px; font-size:18px; color:var(--fa4b-bleu); }
+  .fa4b-dl__carte p { margin:0 0 10px; font-size:15px; }
+  .fa4b-dl__boutons { display:flex; flex-wrap:wrap; gap:8px; }
+  .fa4b-dl__boutons a { display:inline-block; padding:8px 14px; border-radius:4px;
+    font-weight:600; font-size:15px; text-decoration:none !important; line-height:1.2; }
+  .fa4b-dl__couleur { background:var(--fa4b-bleu); color:#fff !important; }
+  .fa4b-dl__noir { background:#fff; color:#1b2b40 !important; border:2px solid #1b2b40; }
+  .fa4b-dl__boutons a:hover { opacity:.85; }
+  .fa4b-dl__note { font-size:13px; opacity:.8; margin-top:14px; }
+  @media (max-width:700px) {
+    .fa4b-dl__grille { grid-template-columns:1fr; gap:20px; }
+    .fa4b-dl__apercu { max-width:360px; margin:0 auto; }
+  }
+</style>
+
+<section class="fa4b-dl" lang="nl">
+  <div class="fa4b-dl__grille">
+    <div class="fa4b-dl__apercu">
+      <!-- REMPLACER : URL van de afbeelding FA4B-affiche-A4-couleur-NL-apercu.jpg -->
+      <img src="REMPLACER-URL-APERCU-NL.jpg"
+           alt="Affiche Free Air 4 Brussels: Stop massaal vliegverkeer" loading="lazy">
+    </div>
+
+    <div>
+      <span class="fa4b-dl__badge">FREE AIR 4 BRUSSELS</span>
+      <h2>Affiches en flyers om af te drukken</h2>
+      <p class="fa4b-dl__intro">
+        Help ons de campagne <strong>Stop massaal vliegverkeer</strong> bekend te maken:
+        download, druk af en verspreid in uw omgeving, aan uw raam, in een etalage
+        of in de brievenbussen van uw buurt.
+      </p>
+
+      <div class="fa4b-dl__carte">
+        <h3>Affiche A4</h3>
+        <p>Voor een raam, een etalage of een prikbord.</p>
+        <div class="fa4b-dl__boutons">
+          <a class="fa4b-dl__couleur" href="/s/FA4B-affiche-A4-couleur-NL.pdf" target="_blank" rel="noopener">Kleur (PDF)</a>
+          <a class="fa4b-dl__noir" href="/s/FA4B-affiche-A4-noir-NL.pdf" target="_blank" rel="noopener">Zwart-wit (PDF)</a>
+        </div>
+      </div>
+
+      <div class="fa4b-dl__carte">
+        <h3>Flyer A5</h3>
+        <p>Om persoonlijk uit te delen of in de brievenbus te stoppen.</p>
+        <div class="fa4b-dl__boutons">
+          <a class="fa4b-dl__couleur" href="/s/FA4B-tract-A5-couleur-NL.pdf" target="_blank" rel="noopener">Kleur (PDF)</a>
+          <a class="fa4b-dl__noir" href="/s/FA4B-tract-A5-noir-NL.pdf" target="_blank" rel="noopener">Zwart-wit (PDF)</a>
+        </div>
+      </div>
+
+      <div class="fa4b-dl__carte">
+        <h3>Vel met 4 flyers (A4)</h3>
+        <p>4 flyers A5 op één A4-blad: afdrukken, knippen, uitdelen. Het voordeligst.</p>
+        <div class="fa4b-dl__boutons">
+          <a class="fa4b-dl__couleur" href="/s/FA4B-planche-A4-4tracts-couleur-NL.pdf" target="_blank" rel="noopener">Kleur (PDF)</a>
+          <a class="fa4b-dl__noir" href="/s/FA4B-planche-A4-4tracts-noir-NL.pdf" target="_blank" rel="noopener">Zwart-wit (PDF)</a>
+        </div>
+      </div>
+
+      <p class="fa4b-dl__note">
+        Tip: de zwart-witversie verbruikt veel minder inkt.
+        Niet op de openbare weg gooien.
+      </p>
+    </div>
+  </div>
+</section>
